@@ -1,0 +1,404 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+overflow-x: hidden;
+width: 100%;
+max-width: 1280px;
+margin: auto;
+font-family: 'Open Sans', sans-serif;
+}
+
+/* header  */
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1280px;
+  z-index: 10;
+}
+
+.hero{
+    background: url(../image/header.jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+   position: relative;
+}
+.overley{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top,#fff 0%, rgba(137,43,226,0.281) 99%,rgba(137,43,226,0.418) 100%);
+
+}
+.container-main{
+    padding: 20px 50px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container ul{
+    display: flex;
+}
+.header-container ul li a{
+    color: #000;
+    padding: 5px 15px; 
+}
+.bar-icon{
+    font-size: 20px;
+    display: none;
+}
+.logo{
+    font-family: 'Baloo Paaji 2', cursive;
+    color:#000;
+}
+@media (max-width:750px){
+    .bar-icon{
+        display: block;
+    }
+    nav{display: none;}
+}
+
+/* header */
+
+.h1 {
+    color: #130255;
+    font-size: 30px;
+    font-family: 'Baloo Paaji 2', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h5 {
+    color: #4622d4a8;
+    font-size: 20px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+.button1 {
+    background-color: #695aa6;
+    color: #f2fff2;
+    border-radius: 50px;
+    border: 1px solid #695aa6;
+    padding: 15px;
+}
+/* about */
+.container{
+    padding: 50px;
+}
+.about-content {
+    color: #9580e7;
+    font-family: 'Open Sans', sans-serif;
+}
+.aboutus{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.about {
+    color: #695aa6;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+.content-text p{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.75;
+}
+
+.content-text {
+    padding-top: 50px;
+
+}
+
+.button2 {
+    background-color: #f2fff2;
+    color: #695aa6;
+    border-radius: 50px;
+    padding: 6px;
+    border: 1px solid #695aa6;
+    margin-top: 10px;
+}
+/* text content */
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5 {
+    text-align: center;
+    color: #000;
+    padding-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+.service,
+.fortfolio,
+.my-pricing,
+.test-monial,
+.contact-me {
+    text-align: center;
+    color: #695aa6;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+/* card */
+.card1,
+.card2,
+.card3,
+.card4 {
+    border: 1px solid #c9c7c9;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    padding: 50px;
+    margin-top: 60px;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+    text-align: center;
+    color: #695aa6;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+.slide1,
+.slide2,
+.slide3,
+.slide4 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.main-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-card2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.card8 {
+    border: 1px solid #c9c7c9;
+    width: 300px;
+    /* height: 500px; */
+    padding: 50px;
+    text-align: center;
+}
+
+.slide8 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.text8 {
+    color: #695aa6;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+.card-button {
+    background-color: #695aa6;
+    color: #f2fff2;
+    padding: 10px;
+    border: 1px solid #695aa6;
+    margin-top: 30px;
+}
+
+.list {
+    color: #000;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.5;
+}
+
+.rupee {
+    margin-top: 10px;
+}
+
+.main-card3 {
+    display: flex;
+    justify-content: center;
+}
+
+.background-card {
+    padding-top: 70px;
+}
+
+.empty {
+    background-color: #9580e7;
+    color: #f2fff2;
+    background-size: cover;
+}
+
+.model1,
+.model2 {
+    display: flex;
+    border: 1px solid #7c7878;
+    margin-top: 40px;
+    width: 450px;
+    height: 150px;
+    position: relative;
+
+}
+
+.image1,
+.image2 {
+    border-radius: 50%;
+    position: absolute;
+    width: 100px;
+    left: -50px;
+    top: 20px;
+
+}
+
+.model1-text,
+.model2-text {
+    color: #9580e7;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.model1-text1,
+.model2-text2 {
+    
+    color: #695aa6;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Baloo Paaji 2', cursive;
+    
+}
+/* profiles */
+.paint{
+    display: flex;
+    gap: 60px;
+    border: 1px solid rgb(216, 213, 213);
+    background: fixed;
+    margin-top: 50px;
+
+
+}
+.para1{
+    width: 800px;
+}
+.tab{
+    color: #695aa6;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+.model-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+/* form */ 
+form{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+.form_model1,.form_model2{
+    width: 100%;
+}
+.form_model1 input,
+.form_model2 input {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.form_model3 textarea {
+   
+   width: 100%;
+}
+
+.form-button {
+    color: #9580e7;
+    border: 1px solid #9580e7;
+    background-color: #f2fff2;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#form-button {
+    text-align: center;
+}
+/* footer */
+
+footer {
+    color: #695aa6;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 50px;
+}
+/* box
+ */
+.part6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #695aa6;
+}
+.line{
+    margin: 30px 0;
+}
+.hire{
+  
+    margin-top: 30px;
+    color:#000 ;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+@media only screen and(max-width: 600px ){
+     .aboutus{
+      background-color: #130255;
+        flex-wrap: wrap;
+     }
+}
